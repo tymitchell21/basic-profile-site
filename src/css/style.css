@@ -1,0 +1,130 @@
+body {
+    font-family: 'Titillium Web', 'Open Sans', sans-serif;
+    background-color: #e9e9e9;
+    width: 850px;
+    margin: auto;
+}
+#main_wrapper {
+    background-color: white;
+    color: #0f1626;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin-top: 15px;
+}
+#main_title {
+    color: #0f1626;
+    float: left;
+}
+#headerDiv {
+    border-bottom: 3px solid #0f1626;
+    height: 90px;
+    margin-bottom: 20px;
+    
+}
+#nav {
+    position: relative;
+    float: right;
+    top: 35px;
+}
+#nav a {
+    color: #0f1626;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+}
+#nav ul {
+    list-style-type: none;
+    display: inline;
+}
+#nav li {
+    display: inline;
+    border-left: 1px solid #0f1626;
+}
+#nav li:hover {
+    border-bottom: 1px solid #0f1626;
+}
+#nav li:first-child {
+    border-left: none;
+}
+#banner_wrapper {
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    height: 125px;
+    background: url("/src/img/starsBanner.jpg") no-repeat;
+    background-size: cover;
+    margin: auto;
+    box-shadow: 0px 4px 4px #1c1a19;
+} 
+section {
+    margin-top: 25px;
+} 
+article, aside {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+} 
+article {
+    width: 300px;
+    margin-right: 15px;
+    float: left;
+}
+article h1 {
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+article p {
+    font-size: 1em;
+}
+aside {
+    margin-top: 40px;
+    position: relative;
+    width: 235px;
+    background-color: #0f1626;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    float: right;
+}
+aside a {
+    margin-right: 10px;
+}
+footer {
+    border-top: 3px solid #0f1626;
+    margin-top: 25px;
+    padding-top: 25px;
+}
+footer div {
+    display: inline;
+}
+footer h1 {
+    font-size: 1em;
+    text-decoration: underline;
+}
+footer p  {
+    font-size: .8em;
+}
+footer img {
+    margin-right: 15px;
+    border: 1px solid #0f1626;
+}
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    display: inline;
+}
+footer li a {
+    text-decoration: none;
+    color: #0f1626;
+    margin-right: 10px;
+    font-size: .8em;
+}
+footer li a:hover {
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+}
